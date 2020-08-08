@@ -86,6 +86,13 @@
           transform: rotate(90deg);
 }
 
+@media (max-width: 480px) {
+  .about-subtitle::before {
+    left: 31px;
+    top: -23px;
+  }
+}
+
 @media (min-width: 480px) {
   .about-subtitle::before {
     left: 31px;

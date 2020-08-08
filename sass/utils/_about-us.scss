@@ -60,6 +60,10 @@
     height: 60px;
     background: #303030;
     transform: rotate(90deg);
+    @media (max-width: 480px) {
+      left: 31px;
+      top: -23px;
+    }
     @media (min-width: 480px) {
       left: 31px;
       top: -23px;
